@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "api-dev"
+version = "0.1.0"
+description = ""
+authors = ["george <developers.tishbe@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.4.3"
+fastapi = "^0.105.0"
+requests = "^2.31.0"
+flake8 = "^6.1.0"
+black = "^23.12.0"
+sqlalchemy = "^2.0.23"
+psycopg2-binary = "^2.9.9"
+uvicorn = {extras = ["standard"], version = "^0.24.0.post1"}
+pre-commit = "^3.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
